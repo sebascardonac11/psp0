@@ -11,7 +11,7 @@ import java.util.LinkedList;
  *Clase utilizada para realizar la lógica matematica para realizar los calculos.
  * @author sebascardonac11
  */
-public class psp0 {
+public class Psp0 {
 
     private final LinkedList dataI;
     private final double media;
@@ -22,7 +22,7 @@ public class psp0 {
      * 
      * @param in Lista con los valores a calcular, no se realizan validaciones de los datos.
      */
-    public psp0(LinkedList in) {
+    public Psp0(LinkedList in) {
         this.dataI = in;
         for (Object dataI1 : this.dataI) {
             this.sumatoria += ((Double) dataI1);
@@ -35,6 +35,10 @@ public class psp0 {
         }
         this.varianza = this.varianza / (this.dataI.size()-1);
         desviacion = Math.sqrt(varianza);
+    }
+
+    Psp0() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     /**

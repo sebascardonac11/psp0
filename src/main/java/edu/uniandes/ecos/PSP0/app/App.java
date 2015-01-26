@@ -32,7 +32,7 @@ public class App {
         }
         entrada.close();//se cierra el flujo entrada
         
-           psp0 c = new psp0(col1);
+           Psp0 c = new Psp0(col1);
         System.out.println("Media " + c.getMedia());
         System.out.println("Desviacion " + c.getDesviacion());
         } catch (Exception e) {
