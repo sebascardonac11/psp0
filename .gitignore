@@ -1,3 +1,1 @@
-#TODO: Copiar los ontenidos de https://github.com/github/gitignore/blob/master/Java.gitignore
-
-target/ 
+target/
